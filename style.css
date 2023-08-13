@@ -1,0 +1,603 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,500;1,200;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: rgb(25, 133, 176);
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    margin:00 auto;
+    width:85%;
+    height:650px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+background-color:rgb(68, 116, 180);;
+}
+
+.left-section{
+   
+    width:25%;
+    height:100%;
+border-top-left-radius: 50px;
+border-bottom-left-radius: 50px;
+background-image: url(img/6.jpg);
+background-position: cover;
+background-size: cover;
+background-repeat: no-repeat;
+
+
+}
+.contain-section{
+  
+    width: 80%;
+  
+    position: relative;
+    top:40px;
+    margin:00 auto;
+  
+}
+.contain{
+
+   
+ display: flex;
+ justify-content: space-between;
+align-items: center;
+ 
+}
+.logo i{
+   
+    background-color: white;
+    color:skyblue;
+    padding:5px 7px;
+    border-radius: 10px;
+}
+.dots{
+ display: flex;
+ justify-content: center;
+
+   
+}
+
+#label-1{
+    width:25px;
+   border-radius: 10px;
+}
+.dots label {
+    width:10px;
+    height:10px;
+    background: rgb(240, 240, 240);
+    margin:0px 3px;
+border-radius: 50%;
+opacity: 0.9;
+
+}
+.select{
+ display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.dot{
+    display: flex;
+    justify-content: center;
+    position: relative;
+ margin:0px 5px;
+   width:30px;
+   height:10px;
+   
+}
+.dot label{
+       width:30px;
+       height:10px;
+   border-radius: 10px;
+ background-color: white;
+
+   opacity: 0.7;
+}
+
+ .circle{
+    background-color: rgb(255, 255, 255);
+    width:15px;
+    height:15px;
+   padding:10px 10px; 
+     border-radius: 50%;
+     position: absolute;
+   left:0px;
+    top:-5px;
+  
+} 
+
+.select span{
+    color:white;
+    font-weight:bold;
+}
+
+
+.right-section{
+    background-color:rgb(130, 185, 193);
+    width:75%;
+    height:100%;
+    border-radius: 50px;
+   
+
+
+}
+
+.location-contain{
+    margin-top:30px;
+    color:white;
+}
+.contain-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  gap:20px;
+    align-items: center;
+
+}
+.time h5 img{
+    height: 20px;
+    margin-right:6px;
+}
+.material-symbols-rounded{
+    font-size: 16px!important;
+    margin-right:6px;
+}
+.day h4{
+    color:aliceblue;
+    opacity: 0.7;
+}
+.time h5{
+    font-size: 15px;
+}
+.temp-contain{
+    margin-top:40px;
+}
+
+.content h1{
+    font-size:90px;
+    color:white;
+}
+.content h2{
+    font-size: 20px;
+    color:white;
+   opacity: 0.7;
+    letter-spacing: 3px;
+}
+.content h2 .material-symbols-rounded{
+    font-size: 16px!important;
+}
+.left-arrow , .right-arrow{
+    color:white;
+    font-size: 30px;
+    opacity: 0.7;
+}
+.contain-right-section{
+    position: relative;
+    top:40px;
+    width: 90%;
+    margin:00 auto;
+}
+.name{
+    background-color: red;
+    height:20px;
+
+}
+.main-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.point{
+    display: flex;
+    justify-content: center;
+    position: relative;
+   
+}
+.detail h2{
+    font-size: 18px;
+    margin-bottom: 1px;
+}
+.user{
+    width:10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.point label{
+       width:8px;
+       height:8px;
+   border-radius: 10px;
+ background-color: white;
+ margin:00px 2px;
+
+}
+.user-pic{
+    width:30px;
+    height:30px;
+    
+}
+.user-pic img{
+    width:100%;
+}
+.chart{
+    margin-top:10px;
+    background-color: white;
+  
+    border-radius:40px;
+  
+}
+.chart-contain{
+    padding:15px 20px;
+  
+}
+.chart-contain-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    width:30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box .select select{
+    padding:10px 10px;
+    border-radius: 10px;
+    border:none;
+
+}
+#select{
+    color:rgb(155, 155, 155);
+  
+}
+
+.select button{
+    padding:10px 10px;
+    border-radius: 10px;
+    border:none;
+    letter-spacing: 1px;
+}
+.heading h5{
+    letter-spacing: 2px;
+    color:rgb(43, 42, 42);
+}
+.chart-box{
+    display: flex;
+justify-content: space-around;
+position: relative;
+font-size: 12px;
+color:rgb(86, 86, 86);
+ 
+}
+.line{
+ 
+ height:100px;
+   border:0.1px black solid;
+    margin:20px 25px;
+
+}
+.data{
+position: absolute;
+bottom:0px;
+
+text-align: center;
+
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+    color:rgb(129, 126, 126);
+}
+
+
+.image{
+    display: flex;
+    justify-content: space-between;
+    margin-top:5px;
+}
+ img{
+    width:20px;
+}
+.deg{
+    display: flex;
+    justify-content: space-between;
+    margin-top:5px;
+}
+  
+ #myChart{
+    margin-top:10px;
+ }   
+ 
+ .weather-box{
+    margin-top:12px;
+ }
+ .weather-box h5{
+    font-size: 15px;
+    letter-spacing: 1px;
+ }
+ 
+ .contain-weather-box{
+    margin-top:8px;
+ }
+ .weather-flex{
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+    justify-content: space-between;
+   gap:10px;
+   grid-template-columns:30% 30% 30%;
+   grid-template-rows:125px 125px ;
+   
+ }
+ .temp-1{
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    
+   
+ }
+ .col-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .col-2 h6{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 400;
+ }
+ .col-2 .img{
+    background-color: blue;
+padding:4px 8px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+ }
+
+ .center-contain{
+    display: flex;
+    justify-content: center;
+     margin-top:5px;
+     align-items: center;
+ }
+ .center-contain h5{
+    font-size: 18px;
+ }
+ .center-contain h5 span{
+    font-size: 18px;
+    font-weight: 500;
+   
+ }
+ .progress-heading{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top:10px;
+
+ }
+ .progress-heading h6{
+    width:30%;
+    color:silver;
+    font-size: 12px;
+    
+ }
+ .progress-contain{
+    display: flex;
+    justify-content: space-between;
+    margin-top:px;
+ }
+ .progress-bar{
+    width:30%;
+    height:10px;
+    background-color:  silver;
+    border-radius: 40px;
+    position: relative;
+  
+
+ }
+ .progress-bar::before{
+    content:"";
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left:0px;
+    top:0px;
+    bottom:0px;
+    width:100%;
+    min-width:23px;
+    max-width:calc(100% -10px);
+    background-color: blue;
+    border-radius: 40px;
+    padding:2px;
+
+ }
+ .bar-1{
+    background-color: silver;
+ }
+ .bar-1:before{
+    content:"";
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left:0px;
+    top:0px;
+    bottom:0px;
+    width:20%;
+    min-width:23px;
+    max-width:calc(100% -10px);
+    background-color: blue;
+    border-radius: 40px;
+    padding:2px;
+ }
+ .bar-2{
+    width:100%;
+    background-color: silver;
+ }
+ .bar-2:before{
+    content:"";
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left:0px;
+    top:0px;
+    bottom:0px;
+    width:40%;
+    min-width:23px;
+    max-width:calc(100% -10px);
+    background-color: blue;
+    
+    padding:2px; 
+ }
+ .bar-3{
+    width:100%;
+    background-color: silver;
+ }
+ .bar-3:before{
+    content:"";
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left:0px;
+    top:0px;
+    bottom:0px;
+    width:60%;
+    min-width:23px;
+    max-width:calc(100% -10px);
+    background-color: blue;
+    
+    padding:2px; 
+ }
+ .bar-4{
+    width:15%;
+   background-color: silver;
+ }
+
+ .progress-head{
+   gap:12px;
+ }
+ .bar-5:before{
+    content:"";
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left:0px;
+    top:0px;
+    bottom:0px;
+    width:5px;
+    min-width:23px;
+    max-width:calc(100% -10px);
+    background-color: blue;
+    
+    padding:2px;  
+ }
+
+ .bar-6{
+    background-color: silver;
+ }
+ .bar-6:before{
+    background-color: silver;
+    content:"";
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left:0px;
+    top:0px;
+    bottom:0px;
+    width:5px;
+    min-width:23px;
+    max-width:calc(100% -10px);
+  
+ }
+ .precipitation-bar{
+    width:10px;
+ }
+ .precipitation-bar:before{
+    background-color: silver;
+    content:"";
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left:0px;
+    top:0px;
+    bottom:0px;
+    width:0px;
+    min-width:10px;
+    max-width:calc(100% -10px);
+ }
+ .precipitation-head h6{
+
+margin-right:10px;
+text-align:right  ;
+ }
+ .full-bar:before{
+    background-color:blue;
+    content:"";
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left:0px;
+    top:0px;
+    bottom:0px;
+    width:100%;
+    min-width:13px;
+    max-width:calc(100% -10px);
+
+ }
+ .half-bar{
+    background-color: silver;
+    width:16px;
+ }
+ .half-bar:before{
+    background-color:blue;
+    content:"";
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left:0px;
+    top:0px;
+    bottom:0px;
+    width:4px;
+    min-width:1px;
+    max-width:calc(100% -10px);
+   
+ }
+ .graph{
+    position: relative;
+ }
+.graph-head{
+    position: absolute;
+    top:50%;
+    left:39%;
+}
+.graph-head h6{
+    font-size: 18px;
+}
+ #myChart{
+ 
+   margin-top:0px; 
+    
+
+ }
+ .needle img{
+    position: absolute;
+    left:40%;
+    top:20%;
+    transform:rotate(180deg);
+    width:23px;
+ }
+
